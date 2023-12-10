@@ -1,0 +1,142 @@
+[
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nAva: Have we made contact with the client yet?\nNoah: Not yet, but we're actively working on establishing communication.\nSummary:\nAva asked Noah whether they had contacted the client yet. Noah said no because they were busy doing something else.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No, the summary does not accurately reflect the dialogue. The summary implies that Noah said they were busy doing something else instead of actively working on establishing communication with the client.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nGrace: How are we allocating the budget for this project?\nHenry: We should allocate more funds to the advertising segment.\nSummary:\nIn a discussion about project budget allocation, Henry suggested the team find more funds for the project.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue. In the dialogue, Grace asks about the budget allocation for a specific project, and Henry suggests allocating more funds to the advertising segment of that project. The summary, on the other hand, states that Henry suggested finding more funds for the project in general, without mentioning the specific allocation or project.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nZoe: Are we on track to meet the deadline?\nLiam: We're making progress but might need minor adjustments.\nZoe: Will this adjustment affect the product quality?\nLiam: It depends on some variables.\nZoe: No matter the condition, we cannot compromise quality.\nSummary:\nThe team needs minor adjustments to meet the deadline. Liam highlighted the importance of product quality.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No, the summary does not accurately reflect the dialogue. The summary only mentions that minor adjustments are needed to meet the deadline and Liam highlighted the importance of product quality, but it does not include any details about the specific issues or concerns discussed in the dialogue.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nAiden: Shall we schedule a meeting for next week?\nHarper: I'm unavailable. Can we consider the week after?\nSummary:\nAiden and Harper want to schedule a meeting for next week but Aiden is unavailable so Harper suggest to move it into the week after.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No, the summary does not accurately reflect the dialogue. The summary only mentions that Aiden is unavailable and suggests moving the meeting to the week after, whereas the actual dialogue involves scheduling a meeting for next week and discussing the possibility of rescheduling it due to Harper's unavailability.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nOliver: How's everyone adapting to the new software?\nMia: I find it intuitive and user-friendly.\nSummary:\nOliver inquired about the adjustment to the new software, and he found it intuitive and user-friendly.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue as it only mentions Oliver's inquiry about the new software and Mia's response, but does not include any information about how they are adapting to it or if there were any difficulties they faced while using it.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nElijah: Are we on track to meet the deadline?\nScarlett: We might need to adjust the timeline to ensure quality.\nZoe: Absolutely. Quality shouldn't be compromised.\nSummary:\nThe team agreed to ensure the quality and keep the timeline.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No, the summary does not accurately reflect the dialogue. The dialogue discusses the need to adjust the timeline to ensure quality, but the summary only mentions ensuring quality and keeping the timeline.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nCharlotte: Is everyone clear about their responsibilities for the event?\nLucas: I need clarity on my specific tasks.\nSummary:\nConcerns about task clarity for an upcoming event are raised, prompting Charlotte to request for specific responsibilities.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nEthan: What are your thoughts on our marketing approach?\nIsabella: I believe we should concentrate more on social media promotions.\nNoah: I concur. Our online presence needs improvement.\nSummary:\nThe discussion centers on the marketing approach. Noah suggested a focus on social media promotions and Isabella agrees with him because their online presence needs improvement.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No, the summary does not accurately reflect the dialogue. The dialogue is about discussing the marketing approach, with Ethan asking for opinions and Noah and Isabella suggesting focusing on social media promotions due to the need for improvement in their online presence. The summary only mentions the suggestion of social media promotions and does not include any discussion or agreement on a plan to solve the problem.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nEmily: What's our plan for the upcoming presentation?\nJacob: I think we should focus on the key points and add visuals.\nSophia: Agreed. We also need to rehearse multiple times.\nSummary:\nDiscussion about the presentation strategy includes focusing on key points and incorporating visuals. Sophia also suggested once doing a rehearsal.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No, the summary does not accurately reflect the dialogue. The dialogue is about discussing the strategy for an upcoming presentation, while the summary is about a plan to solve a problem.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nEva: How are we addressing the recent feedback concerns?\nOwen: We're considering necessary steps for addressing feedback.\nSummary:\nTeam discussions indicate consideration of addressing feedback concerns, but no steps are considered yet.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nMax: Any thoughts on new collaboration possibilities?\nScarlett: I'm exploring several potential opportunities at the moment.\nSummary:\nScarlett will explore some opportunities, not now, but after the discussion.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue.",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nAlice: Hey, did you guys hear about the new restaurant downtown?\nBob: Yeah, I heard it's supposed to have amazing sushi.\nCharlie: I'm not a big fan of sushi, but I heard they also serve great pasta.\nAlice: Really? I might give it a try then.\nSummary:\nA group of friends discussed a new eatery downtown, sharing opinions about its menu offerings, prompting curiosity about trying it out.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue as it mentions a group of friends discussing a new restaurant downtown, sharing opinions about its menu offerings, prompting curiosity about trying it out which is not explicitly stated in the dialogue.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nEmily: Has anyone seen the latest movie that came out?\nJack: I watched it yesterday. It was so intense!\nSophie: I've heard mixed reviews about it. Some say it's great, others disagree.\nEmily: I'm curious. I might check it out this weekend.\nSummary:\nA conversation arose about a recent film release, with varying opinions exchanged among friends, sparking Emily's interest in potentially viewing it over the weekend.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue. It only mentions that they talked about a movie and exchanged opinions, but it doesn't mention anything about Emily being curious or considering watching it.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nDavid: Did you guys hear about the upcoming concert?\nEva: Yeah, I already bought tickets. It's going to be amazing!\nGrace: I wish I could go, but I have other plans that day.\nDavid: You'll definitely miss out. It's going to be epic.\nSummary:\nThree friends discussed an eagerly anticipated concert, with Eva expressing excitement about her tickets while Grace regretfully declined due to conflicting plans, prompting David to emphasize the event's expected greatness.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue. It only mentions that three friends discussed an upcoming concert, but it does not include any details about what they said or how they felt.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nLiam: I can't believe the basketball game last night! It was so intense.\nMia: I know, right? The last quarter was unbelievable.\nOlivia: I missed it. Who won in the end?\nLiam: The home team managed to pull off a win in overtime.\nSummary:\nA discussion among friends unfolded about an intense basketball game, highlighting the excitement of the last quarter and concluding with the revelation that the home team secured a victory in overtime.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No, the summary does not accurately reflect the dialogue. The summary mentions an intense basketball game and the excitement of the last quarter, but it does not mention anything about the friends discussing the game or their reactions to it. Additionally, the summary does not mention the home team winning in overtime, which is a key part of the conversation in the dialogue.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nNathan: Have any of you been to the new art exhibition?\nOliver: Not yet, but I heard it's quite impressive.\nPeter: I visited last weekend. The paintings were stunning.\nNathan: I should check it out. I've heard good things about it.\nSummary:\nA conversation emerged among acquaintances discussing a new art exhibition, with one person sharing second-hand information about its impressiveness while another affirmed the stunning quality of the paintings after visiting, prompting interest from another individual to consider attending based on the positive feedback received.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue as it does not mention any specific details about the art exhibition, such as its location or theme. It only mentions general comments about its impressiveness and stunning quality of the paintings.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nSophie: Did anyone catch the news today?\nLiam: I did. The headlines were quite shocking.\nAva: I missed it. What happened?\nSophie: There was a major announcement about upcoming reforms.\nLiam: It's creating quite a buzz on social media.\nSummary:\nSophie, Liam, and Ava discussed the day's news, mentioning shocking headlines and upcoming reforms that caused a stir on social media.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue. It only mentions that they discussed the news, but it does not include any specific details about what was discussed or what was said in the conversation.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nEvan: Have any of you tried the new coffee shop?\nNora: I went there last weekend. The atmosphere was fantastic.\nHarper: I haven't been, but I've heard great things about their pastries.\nEvan: I should give it a try. I'm a huge coffee enthusiast.\nNora: You won't be disappointed!\nSummary:\nEvan, Nora, and Harper shared thoughts about a new coffee shop, praising its fantastic atmosphere and rumored delightful pastries, encouraging Evan, a coffee enthusiast, to consider visiting.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue. It only mentions the coffee shop, its atmosphere, pastries, and encourages Evan to visit, but it does not include any discussion about trying the new coffee shop or sharing thoughts about it.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nEmma: I can't believe how cold it's getting lately!\nOwen: I know, right? Winter seems to have arrived early.\nLuna: I love this weather. It's perfect for cozy nights in.\nEmma: Agreed. I've already started planning movie nights.\nOwen: That sounds like a great idea!\nSummary:\nFriends conversed about the sudden cold weather, expressing varied opinions but sharing enthusiasm for cozy indoor activities like movie nights, echoing Owen's endorsement of the idea.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue. It only mentions that they talked about the cold weather and cozy indoor activities, but it does not include any expression of varied opinions or sharing enthusiasm for movie nights.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  },
+  {
+    "prompt": "<s>[INST] Given the data consists of dialogue and summary below, determine whether the summary accurately reflects the dialogue or not. Answer with \"Yes\" or \"No\".\n    \nDialogue:\nAiden: Did you guys see the latest gadget release?\nZoe: I saw it online. People seem excited about its features.\nMila: I'm considering getting it. Looks like a game-changer.\nAiden: I'm tempted too, but I'll wait for more reviews.\nZoe: That's a wise decision.\nSummary:\nFriends discussed a recent gadget release, expressing interest in its features and considering potential purchases, while Aiden opted to wait for more reviews, a decision supported by Zoe.\n\nAnswer:\nLet's first understand the problem and devise a plan to solve the problem. Then let's carry out the plan and solve the problem step by step [/INST]",
+    "response": " No. The summary does not accurately reflect the dialogue. It only mentions that the friends discussed a recent gadget release, expressed interest in its features, considered potential purchases, and that Aiden opted to wait for more reviews, which was supported by Zoe. However, there is no mention of any problem or plan to solve it.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false
+  }
+]
