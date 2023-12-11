@@ -1,0 +1,217 @@
+{
+  "llama2-7b-chat": {
+    "analogical": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 11,
+      "TN": 0,
+      "accuracy": 45.0,
+      "no_answer": 0
+    },
+    "fewshot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 11,
+      "TN": 0,
+      "accuracy": 45.0,
+      "no_answer": 2
+    },
+    "fewshot_cot": {
+      "TP": 8,
+      "FN": 1,
+      "FP": 11,
+      "TN": 0,
+      "accuracy": 40.0,
+      "no_answer": 0
+    },
+    "ps": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 8,
+      "TN": 3,
+      "accuracy": 60.0,
+      "no_answer": 0,
+      "plan_and_steps": 0
+    },
+    "psplus": {
+      "TP": 6,
+      "FN": 3,
+      "FP": 4,
+      "TN": 7,
+      "accuracy": 65.0,
+      "no_answer": 0,
+      "plan_and_steps": 20
+    },
+    "zeroshot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 11,
+      "TN": 0,
+      "accuracy": 45.0,
+      "no_answer": 0,
+      "plan_and_steps": 0
+    },
+    "zeroshot_cot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 10,
+      "TN": 1,
+      "accuracy": 50.0,
+      "no_answer": 0,
+      "plan_and_steps": 1
+    }
+  },
+  "mistral-7b-instruct": {
+    "analogical": {
+      "TP": 8,
+      "FN": 1,
+      "FP": 10,
+      "TN": 1,
+      "accuracy": 45.0
+    },
+    "fewshot": {
+      "TP": 8,
+      "FN": 1,
+      "FP": 7,
+      "TN": 4,
+      "accuracy": 60.0
+    },
+    "fewshot_cot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 10,
+      "TN": 1,
+      "accuracy": 50.0
+    },
+    "ps": {
+      "TP": 0,
+      "FN": 9,
+      "FP": 0,
+      "TN": 11,
+      "accuracy": 55.00000000000001
+    },
+    "psplus": {
+      "TP": 6,
+      "FN": 3,
+      "FP": 6,
+      "TN": 5,
+      "accuracy": 55.00000000000001
+    },
+    "zeroshot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 6,
+      "TN": 5,
+      "accuracy": 70.0
+    },
+    "zeroshot_cot": {
+      "TP": 3,
+      "FN": 6,
+      "FP": 1,
+      "TN": 10,
+      "accuracy": 65.0
+    }
+  },
+  "stablelm-zephyr-3b": {
+    "analogical": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 11,
+      "TN": 0,
+      "accuracy": 45.0
+    },
+    "fewshot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 10,
+      "TN": 1,
+      "accuracy": 50.0
+    },
+    "fewshot_cot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 10,
+      "TN": 1,
+      "accuracy": 50.0
+    },
+    "ps": {
+      "TP": 6,
+      "FN": 3,
+      "FP": 1,
+      "TN": 10,
+      "accuracy": 80.0
+    },
+    "psplus": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 10,
+      "TN": 1,
+      "accuracy": 50.0
+    },
+    "zeroshot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 11,
+      "TN": 0,
+      "accuracy": 45.0
+    },
+    "zeroshot_cot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 10,
+      "TN": 1,
+      "accuracy": 50.0
+    }
+  },
+  "zephyr-7b-beta": {
+    "analogical": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 6,
+      "TN": 5,
+      "accuracy": 70.0
+    },
+    "fewshot": {
+      "TP": 7,
+      "FN": 2,
+      "FP": 6,
+      "TN": 5,
+      "accuracy": 60.0
+    },
+    "fewshot_cot": {
+      "TP": 8,
+      "FN": 1,
+      "FP": 9,
+      "TN": 2,
+      "accuracy": 50.0
+    },
+    "ps": {
+      "TP": 3,
+      "FN": 6,
+      "FP": 0,
+      "TN": 11,
+      "accuracy": 70.0
+    },
+    "psplus": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 7,
+      "TN": 4,
+      "accuracy": 65.0
+    },
+    "zeroshot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 6,
+      "TN": 5,
+      "accuracy": 70.0
+    },
+    "zeroshot_cot": {
+      "TP": 9,
+      "FN": 0,
+      "FP": 5,
+      "TN": 6,
+      "accuracy": 75.0
+    }
+  }
+}
