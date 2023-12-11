@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Find the sum of the prime numbers in the 0-indexed list [23, 7, 46, 11, 35, 18, 92]",
+    "answer": 41,
+    "explanation": "1. The given list of numbers: [23, 7, 46, 11, 35, 18, 92]\n2. Prime numbers in the list: 23, 7, 11\n3. Sum of the prime numbers: 23 + 7 + 11 = 41"
+  },
+  {
+    "question": "Find the product of the numbers in even indices in the 0-indexed list [5, 17, 82, 6, 29, 45, 10]",
+    "answer": 118900,
+    "explanation": "1. The given list of numbers: [5, 17, 82, 6, 29, 45, 10]\n2. Numbers at even indices: 5 (index 0), 82 (index 2), 29 (index 4), 10 (index 6)\n3. Product of the numbers in even indices: 5 * 82 * 29 * 10 = 118900"
+  }
+]
