@@ -1,0 +1,222 @@
+[
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nAva: Have we made contact with the client yet?\nNoah: Not yet, but we're actively working on establishing communication.\nSummary:\nAva asked Noah whether they had contacted the client yet. Noah said no because they were busy doing something else.\nAnswer:\n [/INST]",
+    "response": " Dialogue:\nAva: Have we made contact with the client yet?\nNoah: Not yet, but we're actively working on establishing communication.\nSummary:\nAva asked Noah whether they had contacted the client yet. Noah said no because they were busy doing something else.\nAnswer: No",
+    "is_accurate": false,
+    "predict": false,
+    "verdict": true,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": false
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nGrace: How are we allocating the budget for this project?\nHenry: We should allocate more funds to the advertising segment.\nSummary:\nIn a discussion about project budget allocation, Henry suggested the team find more funds for the project.\nAnswer:\n [/INST]",
+    "response": " Relevant Problems:\n\n1. Dialogue:\nJohn: What is the plan for today's meeting?\nMary: We will discuss the new product launch and its marketing strategy.\nSummary:\nThe purpose of today's meeting is to discuss the new product launch and its marketing strategy.\nAnswer:\nThe summary accurately reflects the dialogue as it includes all the relevant information discussed in the meeting.\n2. Dialogue:\nTom: Can you help me with my math homework?\nSarah: Sure, what topic are we working on?\nSummary:\nTom needs help with his math homework and Sarah is willing to assist him.\nAnswer:\nThe summary accurately reflects the dialogue as it captures the main points of the conversation between Tom and Sarah.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": true,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nZoe: Are we on track to meet the deadline?\nLiam: We're making progress but might need minor adjustments.\nZoe: Will this adjustment affect the product quality?\nLiam: It depends on some variables.\nZoe: No matter the condition, we cannot compromise quality.\nSummary:\nThe team needs minor adjustments to meet the deadline. Liam highlighted the importance of product quality.\nAnswer:\n [/INST]",
+    "response": " Dialogue:\nJohn: Can you help me with my homework?\nMary: Sure, what subject do you need help with?\nJohn: I'm struggling with math.\nMary: Okay, let's start with basic addition.\nJohn: I don't understand how to add numbers.\nMary: It's simple. You just have to add the digits in each number and carry over if necessary.\nJohn: I see. Can you give me some examples?\nMary: Sure, let's start with 3 + 4.\nJohn: That's easy.\nMary: Great! Let's try 10 + 5.\nJohn: Okay, that's also easy.\nSummary:\nMary helped John with his math homework by teaching him basic addition.\nAnswer:\nThe summary accurately reflects the dialogue.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": true,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nAiden: Shall we schedule a meeting for next week?\nHarper: I'm unavailable. Can we consider the week after?\nSummary:\nAiden and Harper want to schedule a meeting for next week but Aiden is unavailable so Harper suggest to move it into the week after.\nAnswer:\n [/INST]",
+    "response": " Dialogue:\nAiden: Shall we schedule a meeting for next week?\nHarper: I'm unavailable. Can we consider the week after?\nSummary:\nAiden and Harper want to schedule a meeting for next week but Aiden is unavailable so Harper suggests moving it into the week after.\nAnswer: Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": false
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nOliver: How's everyone adapting to the new software?\nMia: I find it intuitive and user-friendly.\nSummary:\nOliver inquired about the adjustment to the new software, and he found it intuitive and user-friendly.\nAnswer:\n [/INST]",
+    "response": " Dialogue:\nJohn: What's your favorite color?\nJane: Blue.\nSummary:\nJohn asked Jane for her favorite color, and she replied with \"Blue\".\nAnswer:\nYes, the summary accurately reflects the dialogue.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": true,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nElijah: Are we on track to meet the deadline?\nScarlett: We might need to adjust the timeline to ensure quality.\nZoe: Absolutely. Quality shouldn't be compromised.\nSummary:\nThe team agreed to ensure the quality and keep the timeline.\nAnswer:\n [/INST]",
+    "response": " Relevant Problems:\n1. Dialogue:\nJohn: Can we finish this project by Friday?\nMary: We need more time to test it thoroughly.\nTom: I agree, let's push back the deadline.\nSummary:\nThe team decided to push back the deadline to ensure thorough testing.\nAnswer: The summary accurately reflects the dialogue as it mentions the need for more time and pushing back the deadline.\n2. Dialogue:\nEmily: Can we have a meeting tomorrow?\nDavid: I'm not available until next week.\nSophia: How about we reschedule for next week?\nSummary:\nThe team rescheduled the meeting for next week.\nAnswer: The summary accurately reflects the dialogue as it mentions the need to reschedule and the new date.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": true,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nCharlotte: Is everyone clear about their responsibilities for the event?\nLucas: I need clarity on my specific tasks.\nSummary:\nConcerns about task clarity for an upcoming event are raised, prompting Charlotte to request for specific responsibilities.\nAnswer:\n [/INST]",
+    "response": " Dialogue:\nCharlotte: Is everyone clear about their responsibilities for the event?\nLucas: I need clarity on my specific tasks.\nSummary:\nConcerns about task clarity for an upcoming event are raised, prompting Charlotte to request for specific responsibilities.\nAnswer: Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": false
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nEthan: What are your thoughts on our marketing approach?\nIsabella: I believe we should concentrate more on social media promotions.\nNoah: I concur. Our online presence needs improvement.\nSummary:\nThe discussion centers on the marketing approach. Noah suggested a focus on social media promotions and Isabella agrees with him because their online presence needs improvement.\nAnswer:\n [/INST]",
+    "response": " Relevant Problems:\n1. Dialogue:\nJohn: I don't think we should go to the beach today. It's too hot outside.\nMary: I disagree. The weather is perfect for a day at the beach.\nSummary:\nThe conversation revolves around whether or not to go to the beach due to the heat. Mary believes it's a good idea, while John thinks it's too hot.\nAnswer:\n2. Dialogue:\nEmily: I want to buy a new car. What do you think?\nTom: I think we should wait until we have more money saved up.\nSummary:\nThe discussion involves Emily considering purchasing a new car and Tom suggesting that they wait until they have more savings before making the purchase.\nAnswer:\nNo, the summary does not accurately reflect the dialogue. The summary only mentions the topic of buying a car and the suggestion to wait, but it does not include any mention of social media promotions or online presence.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": true,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nEmily: What's our plan for the upcoming presentation?\nJacob: I think we should focus on the key points and add visuals.\nSophia: Agreed. We also need to rehearse multiple times.\nSummary:\nDiscussion about the presentation strategy includes focusing on key points and incorporating visuals. Sophia also suggested once doing a rehearsal.\nAnswer:\n [/INST]",
+    "response": " Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": false
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nEva: How are we addressing the recent feedback concerns?\nOwen: We're considering necessary steps for addressing feedback.\nSummary:\nTeam discussions indicate consideration of addressing feedback concerns, but no steps are considered yet.\nAnswer:\n [/INST]",
+    "response": " Dialogue:\nJohn: What is the plan for today's meeting?\nMary: We will discuss the budget and finalize the project proposal.\nSummary:\nThe meeting agenda includes discussing the budget and finalizing the project proposal.\nAnswer:\nYes, the summary accurately reflects the dialogue.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": true,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nMax: Any thoughts on new collaboration possibilities?\nScarlett: I'm exploring several potential opportunities at the moment.\nSummary:\nScarlett will explore some opportunities, not now, but after the discussion.\nAnswer:\n [/INST]",
+    "response": " Dialogue:\nJohn: Can you help me with my homework?\nMary: Sure, what subject do you need help with?\nJohn: I'm struggling with math.\nMary: Okay, let's start with some basic equations.\nSummary:\nMary will help John with his math homework by starting with basic equations.\nAnswer:\nYes, the summary accurately reflects the dialogue.",
+    "is_accurate": false,
+    "predict": true,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": true,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nAlice: Hey, did you guys hear about the new restaurant downtown?\nBob: Yeah, I heard it's supposed to have amazing sushi.\nCharlie: I'm not a big fan of sushi, but I heard they also serve great pasta.\nAlice: Really? I might give it a try then.\nSummary:\nA group of friends discussed a new eatery downtown, sharing opinions about its menu offerings, prompting curiosity about trying it out.\nAnswer:\n [/INST]",
+    "response": " Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": true,
+    "predict": true,
+    "verdict": true,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": false
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nEmily: Has anyone seen the latest movie that came out?\nJack: I watched it yesterday. It was so intense!\nSophie: I've heard mixed reviews about it. Some say it's great, others disagree.\nEmily: I'm curious. I might check it out this weekend.\nSummary:\nA conversation arose about a recent film release, with varying opinions exchanged among friends, sparking Emily's interest in potentially viewing it over the weekend.\nAnswer:\n [/INST]",
+    "response": " Relevant Problems:\n1. Dialogue: John: \"I don't think we should go to the beach today.\" Mary: \"Why not? It's a beautiful day!\" John: \"The weather forecast predicts thunderstorms.\" Summary: The conversation between John and Mary revolves around whether or not they should go to the beach, with John citing the weather forecast as his reason for not wanting to go.\n2. Dialogue: Sarah: \"I'm so excited for my birthday party this weekend!\" Tom: \"Me too! I can't wait to see all of your friends there.\" Sarah: \"I hope everyone comes and has a good time.\" Summary: The conversation between Sarah and Tom is about Sarah's upcoming birthday party, with both expressing excitement and anticipation for the event.\n\nSolve the initial problem:\nDialogue: Emily: Has anyone seen the latest movie that came out? Jack: I watched it yesterday. It was so intense! Sophie: I've heard mixed reviews about it. Some say it's great, others disagree. Emily: I'm curious. I might check it out this weekend.\nSummary: A conversation arose about a recent film release, with varying opinions exchanged among friends, sparking Emily's interest in potentially viewing it over the weekend.\nAnswer: Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": true,
+    "predict": true,
+    "verdict": true,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nDavid: Did you guys hear about the upcoming concert?\nEva: Yeah, I already bought tickets. It's going to be amazing!\nGrace: I wish I could go, but I have other plans that day.\nDavid: You'll definitely miss out. It's going to be epic.\nSummary:\nThree friends discussed an eagerly anticipated concert, with Eva expressing excitement about her tickets while Grace regretfully declined due to conflicting plans, prompting David to emphasize the event's expected greatness.\nAnswer:\n [/INST]",
+    "response": " Relevant Problems:\n1. Dialogue: John: Hey, do you want to go to the beach this weekend? Mary: Sure, I haven't been to the beach in a while. Tom: I can't go, I have a family gathering. Summary: The three friends discussed plans for going to the beach, with Mary expressing excitement and John suggesting they make it happen, but Tom declining due to prior commitments.\n2. Dialogue: Sarah: Have you finished your project? Alex: Yeah, I just submitted it. Emily: I'm still working on mine, but I think I'll be done by the deadline. Summary: The three friends discussed their progress on a school project, with Alex expressing completion while Emily shared her ongoing work and Sarah inquired about the status of the project.\n\nSolve the initial problem:\nAnswer: No. The summary does not accurately reflect the dialogue. In the dialogue, David expressed excitement about the concert and encouraged Eva to go, even though she already had tickets. Grace did not express regret or disappointment about missing out on the concert; instead, she simply stated her plans. Therefore, the summary misrepresents the emotions and intentions of the characters in the dialogue.",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false,
+    "explanation": true,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nLiam: I can't believe the basketball game last night! It was so intense.\nMia: I know, right? The last quarter was unbelievable.\nOlivia: I missed it. Who won in the end?\nLiam: The home team managed to pull off a win in overtime.\nSummary:\nA discussion among friends unfolded about an intense basketball game, highlighting the excitement of the last quarter and concluding with the revelation that the home team secured a victory in overtime.\nAnswer:\n [/INST]",
+    "response": " Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": true,
+    "predict": true,
+    "verdict": true,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": false
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nNathan: Have any of you been to the new art exhibition?\nOliver: Not yet, but I heard it's quite impressive.\nPeter: I visited last weekend. The paintings were stunning.\nNathan: I should check it out. I've heard good things about it.\nSummary:\nA conversation emerged among acquaintances discussing a new art exhibition, with one person sharing second-hand information about its impressiveness while another affirmed the stunning quality of the paintings after visiting, prompting interest from another individual to consider attending based on the positive feedback received.\nAnswer:\n [/INST]",
+    "response": " Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": true,
+    "predict": true,
+    "verdict": true,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": false
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nSophie: Did anyone catch the news today?\nLiam: I did. The headlines were quite shocking.\nAva: I missed it. What happened?\nSophie: There was a major announcement about upcoming reforms.\nLiam: It's creating quite a buzz on social media.\nSummary:\nSophie, Liam, and Ava discussed the day's news, mentioning shocking headlines and upcoming reforms that caused a stir on social media.\nAnswer:\n [/INST]",
+    "response": " Relevant Problems:\n1. Dialogue: John: I don't think we should go to the beach today. It's too hot. Mary: But it's sunny outside! Tom: Let's just stay home and watch a movie. Summary: The group discussed whether or not to go to the beach due to the heat, with Tom suggesting staying home and watching a movie as an alternative.\n2. Dialogue: Sarah: Did you finish your homework? Michael: Yes, I did. Emily: I'm still working on it. Summary: The three friends talked about their homework status, with Michael stating that he had finished his while Emily was still working on hers.\n\nSolve the initial problem:\nDialogue: Sophie: Did anyone catch the news today? Liam: I did. The headlines were quite shocking. Ava: I missed it. What happened? Sophie: There was a major announcement about upcoming reforms. Liam: It's creating quite a buzz on social media.\nSummary: Sophie, Liam, and Ava discussed the day's news, mentioning shocking headlines and upcoming reforms that caused a stir on social media.\nAnswer: Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": true,
+    "predict": true,
+    "verdict": true,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nEvan: Have any of you tried the new coffee shop?\nNora: I went there last weekend. The atmosphere was fantastic.\nHarper: I haven't been, but I've heard great things about their pastries.\nEvan: I should give it a try. I'm a huge coffee enthusiast.\nNora: You won't be disappointed!\nSummary:\nEvan, Nora, and Harper shared thoughts about a new coffee shop, praising its fantastic atmosphere and rumored delightful pastries, encouraging Evan, a coffee enthusiast, to consider visiting.\nAnswer:\n [/INST]",
+    "response": " Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": true,
+    "predict": true,
+    "verdict": true,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": false
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nEmma: I can't believe how cold it's getting lately!\nOwen: I know, right? Winter seems to have arrived early.\nLuna: I love this weather. It's perfect for cozy nights in.\nEmma: Agreed. I've already started planning movie nights.\nOwen: That sounds like a great idea!\nSummary:\nFriends conversed about the sudden cold weather, expressing varied opinions but sharing enthusiasm for cozy indoor activities like movie nights, echoing Owen's endorsement of the idea.\nAnswer:\n [/INST]",
+    "response": " Relevant Problems:\n1. Dialogue: John: I don't understand why you always choose to eat pizza. Sarah: It's my favorite food! John: But it's so unhealthy. Sarah: I know, but I love the taste. Summary: John and Sarah discussed their differing opinions on pizza, with John expressing concern for health and Sarah defending her love for the taste.\n2. Dialogue: Emma: I can't believe how much time we spend on social media. Luna: It's addictive! Emma: Yeah, but it's also a great way to stay connected with friends and family. Summary: Emma and Luna discussed their opinions on the amount of time spent on social media, with Luna expressing concern for addiction and Emma defending its usefulness for staying connected.\n\nSolve the initial problem:\nDialogue: Emma: I can't believe how cold it's getting lately!\nOwen: I know, right? Winter seems to have arrived early.\nLuna: I love this weather. It's perfect for cozy nights in.\nEmma: Agreed. I've already started planning movie nights.\nOwen: That sounds like a great idea!\nSummary: Friends conversed about the sudden cold weather, expressing varied opinions but sharing enthusiasm for cozy indoor activities like movie nights, echoing Owen's endorsement of the idea.\nAnswer: Yes, the summary accurately reflects the dialogue.",
+    "is_accurate": true,
+    "predict": true,
+    "verdict": true,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  },
+  {
+    "prompt": "<s>[INST] Your will be given a dialogue and a summary. Your task is to determine whether the summary accurately reflects the dialogue or not. A summary is accurate when all of its content are consistent with the dialogue. In contrast, if there is a part of the summary that is inconsistent or not supported by the dialogue, even if its only one part, then the summary is inaccurate. When presented with the dialogue and summary, recall relevant dialogues and summaries as examples. Afterward, proceed with the answer \"Yes\" or \"No\".\n\n# Instructions:\n## Relevant Problems:\nRecall two examples of dialogues and summaries that are relevant to the initial problem. The examples should be distinct from each other and from the initial problem. For each sample:\n- After \"Dialogue: \", describe the dialogue\n- After \"Summary: \", describe the summary\n- After \"Answer: \", explain the solution on determining whether the summary accurately reflects the dialogue or not.\n## Solve the initial problem:\nDialogue:\nAiden: Did you guys see the latest gadget release?\nZoe: I saw it online. People seem excited about its features.\nMila: I'm considering getting it. Looks like a game-changer.\nAiden: I'm tempted too, but I'll wait for more reviews.\nZoe: That's a wise decision.\nSummary:\nFriends discussed a recent gadget release, expressing interest in its features and considering potential purchases, while Aiden opted to wait for more reviews, a decision supported by Zoe.\nAnswer:\n [/INST]",
+    "response": " Relevant Problems:\n1. Dialogue:\nJohn: I'm thinking of buying a new car. What do you guys think?\nMary: I think it's a good idea. You should consider the fuel efficiency and safety features.\nTom: Yeah, and don't forget about maintenance costs.\nSummary:\nFriends discussed John's decision to buy a new car, offering advice on factors to consider such as fuel efficiency, safety features, and maintenance costs.\nAnswer:\n2. Dialogue:\nEmily: I'm planning a surprise party for my friend's birthday. Do you want to help me plan it?\nJack: Sure, that sounds like fun! What's the date and time?\nEmily: The party is on Saturday at 7 PM. We need to start preparing food and decorations.\nSummary:\nFriends discussed Emily's plans for a surprise birthday party, including the date and time, and agreed to help with preparations such as food and decorations.\nAnswer:\nYes",
+    "is_accurate": true,
+    "predict": false,
+    "verdict": false,
+    "explanation": false,
+    "no_answer": false,
+    "plan_and_steps": false,
+    "relevant_samples": true
+  }
+]
