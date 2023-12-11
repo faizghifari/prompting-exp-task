@@ -1,0 +1,102 @@
+[
+    {
+        "prompt": "Q: What is the sum of the even numbers in the 0-indexed list [17, 42, 56, 89, 30, 5, 77]?\nA: ",
+        "response": "  The sum of the even numbers in the 0-indexed list is 42 + 56 = 98.",
+        "gold_answer": 128
+    },
+    {
+        "prompt": "Q: What is the product of the numbers in odd indices in the 0-indexed list [3, 15, 72, 91, 44, 10, 27]?\nA: ",
+        "response": "  The product of the numbers in odd indices in the list is:\n3 x 15 x 72 = 2160",
+        "gold_answer": 13650
+    },
+    {
+        "prompt": "Q: What is the sum of the odd numbers in the 0-indexed list [10, 63, 28, 41, 82, 95, 14]?\nA: ",
+        "response": "  The sum of the odd numbers in the 0-indexed list is 41 + 43 = 84.",
+        "gold_answer": 199
+    },
+    {
+        "prompt": "Q: What is the product of the even numbers in the 0-indexed list [20, 57, 89, 12, 37, 68, 94]?\nA: ",
+        "response": "  The product of the even numbers in the 0-indexed list is:\n20 \u00d7 57 \u00d7 89 = 1,463",
+        "gold_answer": 1534080
+    },
+    {
+        "prompt": "Q: What is the sum of the numbers in even indices in the 0-indexed list [11, 22, 34, 57, 90, 62, 13]?\nA: ",
+        "response": "  The sum of the numbers in even indices in the 0-indexed list is 62 + 62 = 124.",
+        "gold_answer": 148
+    },
+    {
+        "prompt": "Q: What is the product of the numbers in odd indices in the 0-indexed list [33, 25, 41, 68, 79, 90, 12]?\nA: ",
+        "response": "  The product of the numbers in odd indices in the 0-indexed list is 33 x 25 x 41 = 33025.",
+        "gold_answer": 153000
+    },
+    {
+        "prompt": "Q: What is the sum of the odd numbers in the 0-indexed list [51, 80, 42, 71, 28, 93, 14]?\nA: ",
+        "response": "  The sum of the odd numbers in the 0-indexed list is 51 + 71 + 42 = 164.",
+        "gold_answer": 215
+    },
+    {
+        "prompt": "Q: What is the product of the even numbers in the 0-indexed list [11, 62, 85, 90, 37, 54, 29]?\nA: ",
+        "response": "  The product of the even numbers in the list is:\n62 \u00d7 85 \u00d7 37 = 2695",
+        "gold_answer": 301320
+    },
+    {
+        "prompt": "Q: What is the sum of the numbers in odd indices in the 0-indexed list [39, 44, 67, 80, 25, 58, 71]?\nA: ",
+        "response": "  The sum of the numbers in odd indices in the 0-indexed list is 39 + 44 + 67 + 71 = 281.",
+        "gold_answer": 182
+    },
+    {
+        "prompt": "Q: What is the product of the numbers in even indices in the 0-indexed list [16, 73, 28, 55, 67, 40, 82]?\nA: ",
+        "response": "  To find the product of the numbers in even indices in the given list, we can simply multiply each number in the list by itself.\nSo, the product of the numbers in even indices is:\n16 \u00d7 73 = 498\n28 \u00d7 55 = 1450\n40 \u00d7 67 = 2680\n82 \u00d7 40 = 3280",
+        "gold_answer": 2461312
+    },
+    {
+        "prompt": "Q: What is the sum of the even numbers in the 0-indexed list [19, 88, 73, 46, 97, 50, 23]?\nA: ",
+        "response": "  The sum of the even numbers in the 0-indexed list is 88 + 73 + 46 = 165.",
+        "gold_answer": 184
+    },
+    {
+        "prompt": "Q: What is the product of the odd numbers in the 0-indexed list [23, 56, 81, 34, 79, 42, 17]?\nA: ",
+        "response": "  The product of the odd numbers in the 0-indexed list is 23 x 56 x 81 = 14648.",
+        "gold_answer": 2502009
+    },
+    {
+        "prompt": "Q: What is the sum of the numbers in even indices in the 0-indexed list [12, 59, 32, 75, 88, 41, 54]?\nA: ",
+        "response": "  The sum of the numbers in even indices in the given list is:\n42 + 32 = 74",
+        "gold_answer": 186
+    },
+    {
+        "prompt": "Q: What is the product of the even numbers in the 0-indexed list [10, 77, 62, 35, 84, 51, 28]?\nA: ",
+        "response": "  The product of the even numbers in the 0-indexed list is:\n4 x 62 = 246",
+        "gold_answer": 1458240
+    },
+    {
+        "prompt": "Q: What is the sum of the odd numbers in the 0-indexed list [29, 86, 71, 42, 65, 18, 33]?\nA: ",
+        "response": "  The sum of the odd numbers in the 0-indexed list is 351.",
+        "gold_answer": 198
+    },
+    {
+        "prompt": "Q: What is the product of the numbers in even indices in the 0-indexed list [37, 60, 24, 89, 53, 48, 75]?\nA: ",
+        "response": "  To find the product of the numbers in even indices in the given list, we can simply multiply the corresponding elements of the list.\nSo, the product of the numbers in even indices is:\n37 \u00d7 60 = 2100\n48 \u00d7 53 = 2592\n75 \u00d7 48 = 3600\nTherefore, the product of the numbers in even indices in the list is 2100 + 2592 + 3600 = 8292.",
+        "gold_answer": 3529800
+    },
+    {
+        "prompt": "Q: What is the sum of the even numbers in the 0-indexed list [14, 67, 80, 33, 46, 95, 28]?\nA: ",
+        "response": "  The sum of the even numbers in the 0-indexed list is 67 + 46 = 113.",
+        "gold_answer": 168
+    },
+    {
+        "prompt": "Q: What is the product of the odd numbers in the 0-indexed list [55, 38, 71, 84, 29, 96, 13]?\nA: ",
+        "response": "  The product of the odd numbers in the list is 55 x 38 x 71 = 2091.",
+        "gold_answer": 1472185
+    },
+    {
+        "prompt": "Q: What is the sum of the numbers in even indices in the 0-indexed list [22, 89, 76, 41, 64, 57, 30]?\nA: ",
+        "response": "  The sum of the numbers in even indices in the 0-indexed list is 22 + 89 + 76 + 41 = 220.",
+        "gold_answer": 192
+    },
+    {
+        "prompt": "Q: What is the product of the even numbers in the 0-indexed list [18, 71, 86, 59, 24, 93, 46]?\nA: ",
+        "response": "  The product of the even numbers in the 0-indexed list is 71 x 46 = 3162.",
+        "gold_answer": 1708992
+    }
+]
